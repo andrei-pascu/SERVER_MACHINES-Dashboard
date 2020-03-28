@@ -1,18 +1,22 @@
 {
   "name": "server_machines-dashboard",
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  },
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/preset-react": "^7.8.3",
-    "babel-loader": "^8.0.6",
-    "react-hot-loader": "^4.12.19"
+    "@babel/core": "7.8.7",
+    "@babel/preset-env": "7.8.7",
+    "@babel/preset-react": "7.8.3",
+    "babel-loader": "8.1.0",
+    "react-hot-loader": "4.12.19"
   },
   "dependencies": {
-    "heroku": "^7.39.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "heroku": "7.39.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
