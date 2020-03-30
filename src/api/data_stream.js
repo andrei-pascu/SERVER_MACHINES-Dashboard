@@ -21,47 +21,55 @@ var new_entries = 0;
 
 
 function data_stream_update() {
-
-
-    console.log('before data', buffer[0]["timestamp"])
-    console.log('before data', buffer[1]["timestamp"])
-    console.log('before data', buffer[2]["timestamp"])
-
-
-
     new_data = mock_new_data_generator(10);
-    for (let i = 0; i < buffer.length; i++) {
-        for (let j = 0; j < new_data.length; j++) {
-            if(buffer[i]["timestamp"] === new_data[j]["timestamp"]) {
-                new_entries = j-i;
-            } 
-        }
-    }
-// console.log(new_entries)
+    // tentative de dynamic stuff
+    // gen unshift si pop cate sunt noi
+
+    // for (let i = 0; i < buffer.length; i++) {
+    //     for (let j = 0; j < new_data.length; j++) {
+    //         if(buffer[i]["timestamp"] === new_data[j]["timestamp"]) {
+    //             new_entries = j-i;
+    //         } 
+    //     }
+    // }
+    
 
 
-    for (let x = new_entries-1; x >= 0; x--) {
-        // buffer[new_data[x]]
-            buffer[x] = new_data[x]
-        // console.log(new_data[x])
-        // console.log(buffer)
-    //     buffer.pop();
-    //     buffer[x] = new_data[x]
-    //     // console.log(new_entries)
-    //     // console.log(buffer)
-    }
-    // console.log(buffer)
-        // console.log(buffer)
-        // console.log(new_data)
+    // buffer.unshift(new_data[1], new_data[0])
+    // buffer = buffer.unshift()
+
+        // ushift asta
+        // nu mege ok, gen face
+        // nd1, nd0, old, old, old, old
+        // nd1, nd0, nd1, nd0, old, old
+        // gen face update si la the last unshifts..
+                // => cre ca e de la time function ala tho
+                // pare ca face o referinta la functia aia in loc de fking una noua
+            // buffer.unshift(new_data[1])
+            // buffer.pop();
+            // buffer.unshift(new_data[0])
+            // buffer.pop();
 
 
-        console.log('newly added', buffer[0]["timestamp"])
-        console.log('newly added', buffer[1]["timestamp"])
-        console.log('newly added', buffer[2]["timestamp"])
 
-        console.log('updating forse', new_data[0]["timestamp"])
-        console.log('updating forse', new_data[1]["timestamp"])
-        console.log('updating forse', new_data[2]["timestamp"])
+        buffer.unshift(new_data[1]['timestamp'])
+        buffer.pop();
+        buffer.unshift(new_data[0]['timestamp'])
+        buffer.pop();
+
+
+
+        console.log('newly added', buffer)
+
+        console.log('newly added', buffer[0])
+        console.log('newly added', buffer[1])
+        console.log('newly added', buffer[2])
+        console.log('newly added', buffer[3])
+        console.log('newly added', buffer[4])
+        console.log('newly added', buffer[5])
+        console.log('newly added', buffer[6])
+        console.log('newly added', buffer[7])
+        console.log('newly added', buffer[8])
 }
 
 
@@ -69,12 +77,12 @@ function data_stream_update() {
 
 
 
-var data_streaming = setInterval(data_stream_update, 1000)
+var data_streaming = setInterval(data_stream_update, 2000)
 
 // For development
 setTimeout(() => {
     clearInterval(data_streaming);
-}, 7000);
+}, 10000);
 
 
 
