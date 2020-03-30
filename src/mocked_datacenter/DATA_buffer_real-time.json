@@ -1,6 +1,6 @@
 [
     {
-        "timestamp": 1,
+        "timestamp": null,
         "machines": [
             {
                 "machine_name": "Pixel-Cruncher_V2",
@@ -25,7 +25,7 @@
         ]
     },
     {
-        "timestamp": 2,
+        "timestamp": null,
         "machines": [
             {
                 "machine_name": "Pixel-Cruncher_V2",
@@ -49,6 +49,788 @@
             }
         ]
     },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "timestamp": null,
+        "machines": [
+            {
+                "machine_name": "Pixel-Cruncher_V2",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0001"
+            },
+            {
+                "machine_name": "Threadripper",
+                "machine_ip": "0000:0000:0000:0000:0000:0000:0000:0002",
+                "processes": [
+                    {
+                        "process_name": "steam_client.exe"
+                    },
+                    {
+                        "process_name": "spotify_client.exe",
+                        "display_name": "Spotify",
+                        "exe_age": 50,
+                        "usage_cpu": 5,
+                        "usage_memory_bytes": 654654654
+                    }
+                ]
+            }
+        ]
+    },
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
     [],
     [],
     [],
