@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 import CpuGraph from './cpu_graph/cpu_graph';
 import RamGraph from './ram_graph/ram_graph';
 
+// this.props.historyData
+// this contains the 20 item history
+
 export default class GraphsContainer extends Component {
   constructor(props) {
     super(props);
   }
+
+  
     render () {
       return (
         <div className="my_class"> 
@@ -17,11 +22,13 @@ export default class GraphsContainer extends Component {
             <span>_____
               <CpuGraph
                 specificMachineProcesses={this.props.specificMachineBufferData['processes']}
+                historyData={this.props.historyData}
               />
               </span> <br/>
             <span>_____
               <RamGraph
                 specificMachineProcesses={this.props.specificMachineBufferData['processes']}
+                historyData={this.props.historyData}
               />
               </span>
         </div>

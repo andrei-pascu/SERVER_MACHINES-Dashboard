@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
 
+// this.props.historyData
+// this contains the 20 item history
+
+
 export default class CpuGraph extends Component {
   constructor(props) {
     super(props);
   }
   
-  componentDidMount() {
-    // var processes = this.props.specificMachineProcesses;
-    // setTimeout(() => {
-    //   console.log('cpu_graph ' + this.props.specificMachineProcesses[0]['cpu_usage'])
-    // }, 3000);
-    // this.setState({
-    //   the_machines: this.props.bufferData[0]["machines"]
-    // })
+
+  logData() {
+    // console.log('cpu_graph')
+    // console.log(this.props.historyData)
+  }
+
+  calculateGraphCpuUsage() {
+    // get all 20 items
+    // calculateCpuUsage for all 20 seconds
+    // generate SVG points for every one of them
   }
 
   calculateCurrentCpuUsage() {
@@ -29,14 +35,14 @@ export default class CpuGraph extends Component {
       if (!this.props.specificMachineProcesses) {
         return (
           <span className="my_class"> 
-              CpuGraph:
+              TEMP_LAST_GENERATED_SECOND_CPUusage:
           </span>
         )
       } else {
-        
+        this.logData()
         return (
           <span className="my_class"> 
-              CpuGraph: {': ' + this.calculateCurrentCpuUsage()}
+              TEMP_LAST_GENERATED_SECOND_CPUusage: {': ' + this.calculateCurrentCpuUsage()}
           </span>
         )
       }

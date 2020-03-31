@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
 
+// this.props.historyData
+// this contains the 20 item history
+
 export default class RamGraph extends Component {
   constructor(props) {
     super(props);
+  }
+
+
+  calculateGraphMemoryUsage() {
+    // get all 20 items
+    // calculateMemoryUsage for all 20 seconds
+    // generate SVG points for every one of them
   }
 
   calculateCurrentMemoryUsage() {
@@ -21,14 +31,14 @@ export default class RamGraph extends Component {
     if (!this.props.specificMachineProcesses) {
       return (
         <span className="my_class"> 
-            RAMGraph:
+            TEMP_LAST_GENERATED_SECOND_RAMusage:
         </span>
       )
     } else {
       
       return (
         <span className="my_class"> 
-            RAMGraph: {': ' + this.calculateCurrentMemoryUsage()}
+            TEMP_LAST_GENERATED_SECOND_RAMusage: {': ' + this.calculateCurrentMemoryUsage()}
         </span>
       )
     }

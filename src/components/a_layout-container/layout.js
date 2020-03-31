@@ -33,7 +33,7 @@ export default class Layout extends Component {
     });
     this.updateTime = setInterval(
       () => this.getFreshData(),
-      5000
+      1000
     );
   }
 
@@ -87,6 +87,7 @@ export default class Layout extends Component {
             />
             <GraphsContainer
               specificMachineBufferData={this.state.displayedMachine}
+              historyData={this.state.buffer}
             />
             <ExeList
               specificMachineBufferData={this.state.displayedMachine}
