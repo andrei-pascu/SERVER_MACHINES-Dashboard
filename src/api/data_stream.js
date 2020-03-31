@@ -28,15 +28,15 @@ function data_stream_update() {
         buffer.pop();
     }
         console.log('_________________________________')
-        console.log('newly added', buffer[0]["timestamp"])
-        console.log('newly added', buffer[1]["timestamp"])
-        console.log('newly added', buffer[2]["timestamp"])
-        console.log('newly added', buffer[3]["timestamp"])
-        console.log('newly added', buffer[4]["timestamp"])
-        console.log('newly added', buffer[5]["timestamp"])
-        console.log('newly added', buffer[6]["timestamp"])
-        console.log('newly added', buffer[7]["timestamp"])
-        console.log('newly added', buffer[8]["timestamp"])
+        console.log('newly added', buffer[0])
+        console.log('newly added', buffer[1])
+        console.log('newly added', buffer[2])
+        console.log('newly added', buffer[3])
+        console.log('newly added', buffer[4])
+        console.log('newly added', buffer[5])
+        console.log('newly added', buffer[6])
+        console.log('newly added', buffer[7])
+        console.log('newly added', buffer[8])
 }
 
 

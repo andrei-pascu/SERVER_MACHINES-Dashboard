@@ -23,11 +23,28 @@ function mock_init_data_generator(cache_age) {
     if (DATA) {
         var cached_data = [];
 
+
         DATA.map((value, index) => {
+            // console.log(calculate_time(initial_time, 10))
+            // console.log(calculate_time(initial_time, 600))
+            // console.log(calculate_time(initial_time, 3600))
             if (index < cache_age) {
                 cached_data[index] = value;
                 // Generate Timestamps
                 cached_data[index]["timestamp"] = calculate_time(initial_time, index);
+
+                cached_data[index]["machines"].map((machine_list, machine_index) => {
+                    machine_list["processes"].map((process_list, process_index) => {
+                        process_list["exe_age"] = calculate_time(initial_time, parseInt(Math.random()*300));
+                    });
+                });
+                // cached_data[index]["machines"].map((machine_list, machine_index) => {
+                //     machine_list["processes"].map((process_list, process_index) => {
+                //         process_list["exe_age"] = calculate_time(initial_time, index+600)
+                //     })
+                // })
+
+                // = calculate_time(initial_time, -index);
             };
         });
 
