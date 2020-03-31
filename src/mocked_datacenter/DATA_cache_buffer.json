@@ -5,8 +5,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -55,8 +55,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -105,8 +105,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -155,8 +155,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -205,8 +205,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -260,8 +260,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -310,8 +310,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -360,8 +360,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -410,8 +410,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -460,8 +460,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -515,8 +515,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -565,8 +565,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -615,8 +615,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -665,8 +665,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -715,8 +715,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -770,8 +770,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -820,8 +820,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -870,8 +870,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -920,8 +920,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -970,8 +970,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1025,8 +1025,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1075,8 +1075,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1125,8 +1125,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1175,8 +1175,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1225,8 +1225,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1280,8 +1280,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1330,8 +1330,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1380,8 +1380,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1430,8 +1430,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1480,8 +1480,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1535,8 +1535,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1585,8 +1585,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1635,8 +1635,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1685,8 +1685,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1735,8 +1735,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1790,8 +1790,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1840,8 +1840,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1890,8 +1890,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1940,8 +1940,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -1990,8 +1990,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2045,8 +2045,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2095,8 +2095,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2145,8 +2145,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2195,8 +2195,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2245,8 +2245,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2300,8 +2300,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2350,8 +2350,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2400,8 +2400,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2450,8 +2450,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2500,8 +2500,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2555,8 +2555,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2605,8 +2605,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2655,8 +2655,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2705,8 +2705,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2755,8 +2755,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2810,8 +2810,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2860,8 +2860,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2910,8 +2910,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -2960,8 +2960,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3010,8 +3010,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3065,8 +3065,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3115,8 +3115,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3165,8 +3165,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3215,8 +3215,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3265,8 +3265,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3320,8 +3320,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3370,8 +3370,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3420,8 +3420,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3470,8 +3470,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3520,8 +3520,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3575,8 +3575,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3625,8 +3625,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3675,8 +3675,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3725,8 +3725,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3775,8 +3775,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3830,8 +3830,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3880,8 +3880,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3930,8 +3930,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -3980,8 +3980,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4030,8 +4030,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4085,8 +4085,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4135,8 +4135,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4185,8 +4185,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4235,8 +4235,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4285,8 +4285,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4340,8 +4340,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4390,8 +4390,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4440,8 +4440,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4490,8 +4490,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4540,8 +4540,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4595,8 +4595,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4645,8 +4645,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4695,8 +4695,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4745,8 +4745,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4795,8 +4795,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4850,8 +4850,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4900,8 +4900,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -4950,8 +4950,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5000,8 +5000,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5050,8 +5050,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5105,8 +5105,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5155,8 +5155,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5205,8 +5205,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5255,8 +5255,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5305,8 +5305,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5360,8 +5360,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5410,8 +5410,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5460,8 +5460,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5510,8 +5510,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5560,8 +5560,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5615,8 +5615,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5665,8 +5665,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5715,8 +5715,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5765,8 +5765,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5815,8 +5815,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5870,8 +5870,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5920,8 +5920,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -5970,8 +5970,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6020,8 +6020,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6070,8 +6070,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6125,8 +6125,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6175,8 +6175,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6225,8 +6225,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6275,8 +6275,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6325,8 +6325,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6380,8 +6380,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6430,8 +6430,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6480,8 +6480,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6530,8 +6530,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6580,8 +6580,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6635,8 +6635,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6685,8 +6685,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6735,8 +6735,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6785,8 +6785,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6835,8 +6835,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6890,8 +6890,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6940,8 +6940,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -6990,8 +6990,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7040,8 +7040,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7090,8 +7090,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7145,8 +7145,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7195,8 +7195,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7245,8 +7245,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7295,8 +7295,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7345,8 +7345,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7400,8 +7400,8 @@
             {
                 "machine_name": "Threadripper 3990X",
                 "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
-                "cpu_core_nr": "32",
-                "ram_max_gb_size": "32",
+                "cpu_core_nr": 32,
+                "ram_max_size": 32000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7450,8 +7450,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V2",
                 "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
-                "cpu_core_nr": "16",
-                "ram_max_gb_size": "16",
+                "cpu_core_nr": 16,
+                "ram_max_size": 16000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7500,8 +7500,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V3",
                 "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7550,8 +7550,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V4",
                 "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",
@@ -7600,8 +7600,8 @@
             {
                 "machine_name": "Pixel-Cruncher_V5",
                 "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
-                "cpu_core_nr": "8",
-                "ram_max_gb_size": "8",
+                "cpu_core_nr": 8,
+                "ram_max_size": 8000000000,
                 "processes": [
                     {
                         "process_name": "chrome.exe",

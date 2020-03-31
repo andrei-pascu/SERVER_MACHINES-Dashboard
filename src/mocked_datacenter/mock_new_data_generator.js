@@ -25,7 +25,7 @@ function mock_new_data_generator(cache_age) {
     // console.log(mock_init_data_generator(cache_age)[0]["timestamp"]) //checks out
     // console.log(mock_init_data_generator(cache_age)[0]["timestamp"][0]["machine_name"])
     // console.log( mock_init_data_generator(cache_age)[0]["timestamp"] )
-    console.log( mock_init_data_generator(cache_age)[0]["machines"] )
+    // console.log( mock_init_data_generator(cache_age)[0]["machines"] )
 
     current_time = new Date();
 
