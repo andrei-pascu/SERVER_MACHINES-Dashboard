@@ -7,7 +7,8 @@ import stream_method from '../../api/data_stream';
 export default class Layout extends Component {
   constructor(props) {
     super(props);
-    this.buffer = this.buffer
+    this.buffer = this.buffer;
+    this.useSideDataFromSidepanel = this.useSideDataFromSidepanel.bind(this);
     // this.a_var = a_var(1000);
 // console.log(this.data_stream())
     // this.test = cached_data[29]["machine_name"];
@@ -16,62 +17,49 @@ export default class Layout extends Component {
       inited:false,
       stream: stream_method,
       buffer: null,
-      magicNumber: 25
+      displayedMachine: 0
     }
   }
 
-  // stream_intermediary() {
-  //     // setInterval(() => {
-  //     //   this.setState({buffer: this.state.stream()["data"][0]["timestamp"]})
-  //     // }, 100000);
+  
+  componentDidMount() {
+    this.getFreshData()
+    this.setDisplayedMachineIndex(0);
+  }
 
-  //     this.setState((state) => {
-  //       return {buffer: state.stream_method};
-  //     });
-  // }
+  componentWillMount() {
+    this.setState({
+      buffer: this.state.stream()["data"]
+    });
+    this.updateTime = setInterval(
+      () => this.getFreshData(),
+      5000
+    );
+  }
 
-
-  // wtfAAAA() {
-  //   return this.setState({
-  //     buffer: this.state.stream()
-  //   })
-  // }
-
-  // wtfAAAA() {
-  //   console.log('a function dude')
-  // }
-componentWillMount() {
-  this.setState({
-    buffer: this.state.stream()["data"]
-  })
-  this.updateTime = setInterval(
-    () => this.getFreshData(),
-    1000
-  )
-}
-
-getFreshData = () => {
-  // console.log(this.state.stream()["data"])
-  return this.setState({
-    // buffer: Math.random()
-    buffer: this.state.stream()["data"]
-  })
-}
+  getFreshData = () => {
+    // console.log(this.state.stream()["data"])
+    return this.setState({
+      // buffer: Math.random()
+      buffer: this.state.stream()["data"]
+    })
+  }
 
 
+  setDisplayedMachineIndex = (machine_index) => {
+    console.log(this.state.buffer[0]["machines"][machine_index])
+    return this.setState({
+      // buffer: Math.random()
+      displayedMachine: this.state.buffer[0]["machines"][machine_index]
+    })
+  }
 
-
-
-
-  // stream() {
-  //   this.stream_intermediary()
-  //     // this.setState({buffer: this.state.stream()["data"][0]["timestamp"]})
-  //     setInterval(() => {
-  //       // this.buffer = this.state.stream()[0]["timestamp"];
-  //       // console.log(this.state.stream()["data"][0]["timestamp"])
-  //     }, 1000);
-  //     console.log(this.state.buffer)
-  // }
+  useSideDataFromSidepanel(val){
+    // val = val + ' value'
+    this.setDisplayedMachineIndex(val)
+    // console.log(val);
+    // console.log(this.state.displayedMachine);
+  }
 
 
     render () {
@@ -89,22 +77,20 @@ getFreshData = () => {
       return (
         <div className="my_class"> 
           {this.state.buffer[0]["timestamp"]} <br/>
-          {this.state.buffer[0]["machines"][0]["machine_name"]} <br/>
-          {this.state.buffer[0]["machines"][0]["machine_ip"]} <br/>
-          {this.state.buffer[0]["machines"][0]["cpu_core_nr"]} <br/>
-          {this.state.buffer[0]["machines"][0]["ram_max_size"] / 1000000 + ' gb'} <br/>
           <br/>
           <br/>
           <br/>
           <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-            <SidePanel />
-            <GraphsContainer />
-            <ExeList />
+            <SidePanel 
+              sidePanelClickSendsData={this.useSideDataFromSidepanel}
+              bufferData={this.state.buffer}
+            />
+            <GraphsContainer
+              specificMachineBufferData={this.state.displayedMachine}
+            />
+            <ExeList
+              specificMachineBufferData={this.state.displayedMachine}
+            />
         </div>
       )
     }
