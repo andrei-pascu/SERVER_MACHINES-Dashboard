@@ -10,21 +10,13 @@ export default class RamGraph extends Component {
       width: 950,
       height: 200
     };
-    this.svg_inner_viewbox = `0 0 ${this.svg_inner['width']} ${this.svg_inner['height']}`
+    this.svg_inner_viewbox = `0 0 ${this.svg_inner['width']} ${this.svg_inner['height']}`;
+    this.last_sum = 0;
   }
   
 
-  calculateCurrentMemoryUsage() {
-    var processes = this.props.specificMachineProcesses;
-    var sum = 0;
-    for(let x = 0; x < processes.length; x++) {
-      sum += processes[x]['memory_usage']
-    }
-    return sum;
-  }
-
   getMemoryUsageHistory() {
-    var selected_machine = 0;
+    var selected_machine = this.props.specificMachineIndex;
 
 
 
@@ -49,6 +41,8 @@ export default class RamGraph extends Component {
     // console.log(selectedMachineHistory)
     var generated_svg_polyline_points = '';
     var point_x_axis = 0;
+    this.last_sum = 100 - parseInt(selectedMachineHistory[selectedMachineHistory.length - 21])
+
     for (let x = selectedMachineHistory.length - 1; x >= 0; x--) {
       var point_y_axis_selectedMachineHistory = parseInt((selectedMachineHistory[x]/100)*this.svg_inner['height']);
       // console.log(point_y_axis_selectedMachineHistory)
@@ -72,7 +66,7 @@ export default class RamGraph extends Component {
       } else {
         return (
           <span className="my_class"> 
-              TEMP_LAST_GENERATED_SECOND_Memoryusage: {': ' + this.calculateCurrentMemoryUsage()} <br/>
+              TEMP_LAST_GENERATED_SECOND_Memoryusage: {': ' + this.last_sum + '%'} <br/>
               <svg viewBox={this.svg_inner_viewbox} className="chart">
               <polyline fill="red" stroke="#0074d9" strokeWidth="2" points={this.generate_svg()}>
                 </polyline>

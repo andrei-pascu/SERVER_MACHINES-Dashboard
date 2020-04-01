@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 export default class ExeList extends Component {
   constructor(props) {
     super(props);
+    this.timer = 0;
   }
   componentDidMount() {
     // console.log(this.props.specificMachineBufferData['processes'][0]['process_name'])
@@ -10,6 +11,13 @@ export default class ExeList extends Component {
     // setTimeout(() => {
     //   console.log(this.props.specificMachineBufferData['processes'][0]['process_name'])
     // }, 3000);
+    setInterval(() => {
+      if (this.timer == 30) {
+        this.timer = 0;
+      } else {
+        this.timer += 1;
+      }
+    }, 1000)
   }
 
 
@@ -21,16 +29,22 @@ export default class ExeList extends Component {
           </div> 
         )
       } else {
+        var processes_arr = this.props.historyData[this.timer]['machines'][this.props.specificMachineIndex]['processes'];
         return (
           <div className="my_class"> 
               ExeList <br/>
               {/* {this.props.specificMachineBufferData['machine_name']} */}
-              if ()
+              {/* {
+                console.log('aaa', this.props.specificMachineIndex)
+              }
+              {
+                console.log(this.props.historyData[this.timer])
+              }
               {'aici_____ ' + this.props.specificMachineBufferData['processes'][0]['process_name']}
 
+              {this.props.historyData[this.timer]['machines'][this.props.specificMachineIndex]['processes'][0]['cpu_usage']} */}
 
-
-              {this.props.specificMachineBufferData['processes'].map(
+              {processes_arr.map(
                 (process, index) => 
                   <div key={index}>
                     <span>

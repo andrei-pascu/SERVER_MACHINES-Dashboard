@@ -22,12 +22,14 @@ export default class GraphsContainer extends Component {
             <span>_____
               <CpuGraph
                 specificMachineProcesses={this.props.specificMachineBufferData['processes']}
+                specificMachineIndex={this.props.specificMachineIndex}
                 historyData={this.props.historyData}
               />
               </span> <br/>
             <span>_____
               <RamGraph
                 specificMachineProcesses={this.props.specificMachineBufferData['processes']}
+                specificMachineIndex={this.props.specificMachineIndex}
                 historyData={this.props.historyData}
               />
               </span>

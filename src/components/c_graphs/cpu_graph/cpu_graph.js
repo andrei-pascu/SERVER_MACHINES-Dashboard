@@ -7,7 +7,8 @@ export default class CpuGraph extends Component {
       width: 950,
       height: 200
     };
-    this.svg_inner_viewbox = `0 0 ${this.svg_inner['width']} ${this.svg_inner['height']}`
+    this.svg_inner_viewbox = `0 0 ${this.svg_inner['width']} ${this.svg_inner['height']}`;
+    this.last_sum = 0;
   }
   
 
@@ -21,10 +22,11 @@ export default class CpuGraph extends Component {
   }
 
   getCpuUsageHistory() {
-    var selected_machine = 0;
+    var selected_machine = this.props.specificMachineIndex;
     var history = this.props.historyData;
     var selectedMachineHistory = [];
     for (let x = 0; x < history.length - 10; x++) {
+      // console.log(history[x+10]["timestamp"])
         var processes = history[x+10]['machines'][selected_machine]['processes'];
         var cpu_usage_sum = 0;
       for (let j = 0; j < processes.length; j++) {
@@ -40,6 +42,12 @@ export default class CpuGraph extends Component {
     var selectedMachineHistory = this.getCpuUsageHistory();
     var generated_svg_polyline_points = '';
     var point_x_axis = 0;
+    // skips several at line 28
+    // selectedMachineHistory.length ==== 50
+    // then the length-1 == 48
+    // you were rendering 10-30 before 
+    this.last_sum =  100 - parseInt(selectedMachineHistory[selectedMachineHistory.length - 21])
+
     for (let x = selectedMachineHistory.length - 1; x >= 0; x--) {
       var point_y_axis_selectedMachineHistory = parseInt((selectedMachineHistory[x]/100)*this.svg_inner['height']);
       generated_svg_polyline_points += ` ${point_x_axis},${point_y_axis_selectedMachineHistory} `;
@@ -62,7 +70,7 @@ export default class CpuGraph extends Component {
       } else {
         return (
           <span className="my_class"> 
-              TEMP_LAST_GENERATED_SECOND_CPUusage: {': ' + this.calculateCurrentCpuUsage()} <br/>
+              TEMP_LAST_GENERATED_SECOND_CPUusage: {': ' + this.last_sum} <br/>
               <svg viewBox={this.svg_inner_viewbox} className="chart">
               <polyline fill="red" stroke="#0074d9" strokeWidth="2" points={this.generate_svg()}>
                 </polyline>
