@@ -6,10 +6,10 @@ export default class ExeList extends Component {
   }
   componentDidMount() {
     // console.log(this.props.specificMachineBufferData['processes'][0]['process_name'])
-    console.log('exe_list "mounted"')
-    setTimeout(() => {
-      console.log(this.props.specificMachineBufferData['processes'][0]['process_name'])
-    }, 3000);
+    // console.log('exe_list "mounted"')
+    // setTimeout(() => {
+    //   console.log(this.props.specificMachineBufferData['processes'][0]['process_name'])
+    // }, 3000);
   }
 
 

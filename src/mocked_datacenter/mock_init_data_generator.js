@@ -9,25 +9,6 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
-// working ok, but same start age of processes for all machines
-// var process_age = [];
-// function generateAge() {
-//     for (var i = 0; i < 10; i++) {
-//         process_age[i] = getRandomInt(35, 3600);
-//     }
-// }
-// generateAge()
-
-
-
-
-
-
-
-
-// same for every second (cause it's the start time)
-// different process start time for every machine tho
 var process_age = [];
 function generateAge() {
     for (var i = 0; i < 10; i++) {
@@ -40,51 +21,27 @@ function generateAge() {
 generateAge()
 
 
-
-
-
-
-
-
-
-
-
 function mock_init_data_generator(cache_age) {
-
     if (DATA) {
         var cached_data = [];
-
-
         DATA.map((value, index) => {
             if (index < cache_age) {
                 cached_data[index] = value;
                 cached_data[index]["timestamp"] = calculate_time(initial_time, index);
-
-
                 cached_data[index]["machines"].map((machine_list, machine_index) => {
-                    
                     machine_list["processes"].map((process_list, process_index) => {
                         process_list["exe_age"] = calculate_time(initial_time, process_age[machine_index][process_index]);
-
-
                         process_list["cpu_usage"] = getRandomInt(0, 100/machine_list["processes"].length);
                         process_list["memory_usage"] = getRandomInt(0, machine_list["ram_max_size"]/machine_list["processes"].length);
                     });
                 });
             };
         });
-
         return cached_data;
         
     } else {
         throw 'Initial server data returned undefined.'
     }
 }
-
-
-
-
-
-
 
 export default mock_init_data_generator;
