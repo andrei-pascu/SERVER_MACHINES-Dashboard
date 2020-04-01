@@ -12,15 +12,6 @@ export default class CpuGraph extends Component {
   }
   
 
-  calculateCurrentCpuUsage() {
-    var processes = this.props.specificMachineProcesses;
-    var sum = 0;
-    for(let x = 0; x < processes.length; x++) {
-      sum += processes[x]['cpu_usage']
-    }
-    return sum;
-  }
-
   getCpuUsageHistory() {
     var selected_machine = this.props.specificMachineIndex;
     var history = this.props.historyData;
@@ -48,6 +39,8 @@ export default class CpuGraph extends Component {
     // you were rendering 10-30 before 
     this.last_sum =  100 - parseInt(selectedMachineHistory[selectedMachineHistory.length - 21])
 
+
+
     for (let x = selectedMachineHistory.length - 1; x >= 0; x--) {
       var point_y_axis_selectedMachineHistory = parseInt((selectedMachineHistory[x]/100)*this.svg_inner['height']);
       generated_svg_polyline_points += ` ${point_x_axis},${point_y_axis_selectedMachineHistory} `;
@@ -70,7 +63,7 @@ export default class CpuGraph extends Component {
       } else {
         return (
           <span className="my_class"> 
-              TEMP_LAST_GENERATED_SECOND_CPUusage: {': ' + this.last_sum} <br/>
+              TEMP_LAST_GENERATED_SECOND_CPUusage: {': ' + this.last_sum + '%'} <br/>
               <svg viewBox={this.svg_inner_viewbox} className="chart">
               <polyline fill="red" stroke="#0074d9" strokeWidth="2" points={this.generate_svg()}>
                 </polyline>

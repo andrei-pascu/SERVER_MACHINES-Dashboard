@@ -19,20 +19,22 @@ export default class GraphsContainer extends Component {
             {'H2______________ IP: ' + this.props.specificMachineBufferData['machine_ip']} <br/>
             {'H2______________ CPU: ' + this.props.specificMachineBufferData['cpu_core_nr'] + ' cores'} <br/>
             {'H2______________ RAM: ' + this.props.specificMachineBufferData['ram_max_size']/1000000 + 'mb'} <br/>
-            <span>_____
-              <CpuGraph
-                specificMachineProcesses={this.props.specificMachineBufferData['processes']}
-                specificMachineIndex={this.props.specificMachineIndex}
-                historyData={this.props.historyData}
-              />
-              </span> <br/>
-            <span>_____
-              <RamGraph
-                specificMachineProcesses={this.props.specificMachineBufferData['processes']}
-                specificMachineIndex={this.props.specificMachineIndex}
-                historyData={this.props.historyData}
-              />
-              </span>
+            <div style={{display: 'flex'}}>
+              <span>_____
+                <CpuGraph
+                  specificMachineProcesses={this.props.specificMachineBufferData['processes']}
+                  specificMachineIndex={this.props.specificMachineIndex}
+                  historyData={this.props.historyData}
+                />
+                </span> <br/>
+              <span>_____
+                <RamGraph
+                  specificMachineProcesses={this.props.specificMachineBufferData['processes']}
+                  specificMachineIndex={this.props.specificMachineIndex}
+                  historyData={this.props.historyData}
+                />
+                </span>
+            </div>
         </div>
       )
     }

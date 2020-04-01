@@ -32,7 +32,7 @@ export default class Layout extends Component {
 
 
   streamData = () => {
-    if (this.state.buffer.length == 30) {
+    if (this.state.buffer.length == 31) {
       var x = mock_init_data_generator(60);
       return this.setState({
         buffer: x
