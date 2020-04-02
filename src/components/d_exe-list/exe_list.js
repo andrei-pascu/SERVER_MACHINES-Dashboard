@@ -26,36 +26,38 @@ export default class ExeList extends Component {
       } else {
         var processes_arr = this.props.historyData[this.timer]['machines'][this.props.specificMachineIndex]['processes'];
         return (
-          <div className="exe_list"> 
+          <div className='processes_container'>
               <h2 className={'processes_title'}>Processes</h2>
+              <div className={'process_row process_titles'}>
+                <p className={'process_column process_column_display_name'} >
+                  App
+                </p>
+                <p className={'process_column process_column_name'} >
+                  Executables
+                </p>
+                <p className={'process_column process_column_exe_age'} >
+                  Start Time
+                </p>
+                <p className={'process_column process_column_cpu'} >
+                  CPU
+                </p>
+                <p className={'process_column process_column_ram'} >
+                  RAM
+                </p>
+              </div>
+              <div className="exe_list"> 
+
               <div className="process_table">
-                  <div className={'process_row'}>
-                    <p className={'process_column'} >
-                      App
-                    </p>
-                    <p className={'process_column'} >
-                      Executables
-                    </p>
-                    <p className={'process_column'} >
-                      Start Time
-                    </p>
-                    <p className={'process_column process_column_cpu'} >
-                      CPU
-                    </p>
-                    <p className={'process_column process_column_ram'} >
-                      RAM
-                    </p>
-                  </div>
                   {processes_arr.map(
                     (process, index) => 
                       <div className={'process_row'} key={index}>
-                        <p className={'process_column'} >
+                        <p className={'process_column process_column_display_name'} >
                           {process['display_name']}
                         </p>
-                        <p className={'process_column'} >
+                        <p className={'process_column process_column_name'} >
                           {process['process_name']}
                         </p>
-                        <p className={'process_column'} >
+                        <p className={'process_column process_column_exe_age'} >
                           {process['exe_age']}
                         </p>
                         <p className={'process_column process_column_cpu'} >
@@ -66,6 +68,287 @@ export default class ExeList extends Component {
                         </p>
                       </div>
                   )}
+
+
+
+
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+                  <div className={'process_row'}>
+                    <p className={'process_column process_column_display_name'} >
+                      App
+                    </p>
+                    <p className={'process_column process_column_name'} >
+                      Executables
+                    </p>
+                    <p className={'process_column process_column_exe_age'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
+                  </div>
+              </div>
+
+
+
+
               </div>
           </div>
         )

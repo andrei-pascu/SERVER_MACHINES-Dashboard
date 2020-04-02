@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CpuGraph from './cpu_graph/cpu_graph';
 import RamGraph from './ram_graph/ram_graph';
+import './graphs_container.css';
 
 // this.props.historyData
 // this contains the 20 item history

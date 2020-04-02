@@ -79,7 +79,7 @@ export default class Layout extends Component {
               sidePanelClickSendsData={this.useSideDataFromSidepanel}
               bufferData={this.state.buffer}
             />
-            <div className="constant-display-container flex-centered">
+            <div className="constant-display-container">
               <GraphsContainer
                 specificMachineBufferData={this.state.displayedMachine}
                 specificMachineIndex={this.state.displayedMachineList}

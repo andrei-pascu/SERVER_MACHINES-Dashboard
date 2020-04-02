@@ -22,10 +22,11 @@ html {
     width: 100vw;
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 .layout {
     min-height: 100vh;
-    background-color: rgb(89, 89, 155);
+    background-color: rgb(209, 209, 209);
     display: flex;
     align-items: flex-start;
 }
@@ -38,11 +39,13 @@ html {
 }
 .constant-display-container {
     height: 100vh;
+    display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    flex-direction: column;
     padding-top: 5vh;
     padding-left: 3vw;
-    width: 100%;
+    width: calc(100% - 10rem);
 }
 
 
@@ -53,68 +56,57 @@ html {
 .side_panel {
     min-height: 100vh;
     width: 10rem;
-    border: 2px dotted red;
+    /* border: 2px dotted red; */
 }
 
 .burger-menu-ico {
     display: none;
 }
+.side_panel_toggle-container {
+    display: none;
+}
 
-.arrow-menu-ico {
+
+.side_panel_toggle-container {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    height: 3rem;
+    border: 2px solid black;
+}
+
+.machines_list {
+    /* margin-top: 3rem; */
+    border: 2px blue dotted;
+    background-color: white;
+    
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+.machines_list h2 {
+    margin-bottom: 0.5rem;
+}
+
+.side_panel.collapsed .machines_list {
+    display: block;
+    height: 100vh;
 }
 
 
 
 
-header {
-    display: flex;
-    justify-content: space-between;
-}
-.machine_details {
-    margin: 0 3vw;
-}
 
 
 
 
-
-
-.graphs_header_container {
-    width: 100%;
-    height: 70vh;
-}
-
-.graphs_container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* padding-right: 2vw; */
-    /* flex-direction: column; */
-}
-
-.cpu_graph-container {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    border: 0.2rem solid greenyellow;
-    width: 40vw;
-    /* width: 20%; */
-}
-
-.ram_graph-container {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    border: 0.2rem solid rgb(248, 47, 255);
-    width: 40vw;
-    margin: 0 2vw;
-}
 
 
 
 .exe_list {
-    width: 100%;
-    height: 30vh;
+    width: calc(100% + 1rem);
+    height: 35.5vh;
+    overflow-y: scroll;
+    margin-top: 1vh;
 }
 .processes_title {
 
@@ -136,18 +128,103 @@ header {
     justify-content: flex-end;
 }
 
+.process_column_display_name {
+    width: 18%;
+}
+
+.process_column_name {
+    width: 27%;
+}
+
+.process_column_exe_age {
+    width: 18%;
+}
+
 .process_column_cpu{
-    width: 4rem;
+    width: 5%;
 }
 
 .process_column_ram {
-    width: 9rem;
+    width: 22%;
+}
+.processes_container {
+    width: 100%;
+}
+
+.process_titles {
+    margin: 0 3vw 0 0;
 }
 
 
 
-/* mobile */
-@media only screen and (max-width: 63.9rem) and (orientation: portrait) { 
+
+
+
+
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.machine_details {
+    margin: 0 3vw;
+}
+
+
+
+
+
+
+
+
+.graphs_header_container {
+    width: 100%;
+    height: 52vh;
+}
+
+.graphs_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.cpu_graph-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border: 0.18rem solid rgba(43, 159, 226, 1);
+    width: 40vw;
+    /* width: 20%; */
+}
+
+.ram_graph-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border: 0.18rem solid rgba(137, 43, 226, 1);
+    width: 40vw;
+    margin: 0 2vw;
+}
+
+.ram_chart {
+    fill: rgba(137, 43, 226, 0.397);
+    stroke:rgba(137, 43, 226, 0.829);
+    stroke-width:2px;
+}
+.cpu_chart {
+    fill: rgba(43, 159, 226, 0.397);
+    stroke:rgba(43, 159, 226, 0.829);
+    stroke-width:2px;
+}
+
+
+
+/* @media only screen and (max-width: 64) and (orientation: portrait) { 
     .side_panel {
         position: fixed;
         top: 0;
@@ -161,4 +238,85 @@ header {
     .arrow-menu-ico {
         display: none;
     }
+} */
+
+
+@media only screen and (max-width: 64rem) { 
+    .constant-display-container {
+        width: 100%;
+        padding-top: 4rem;
+    }
+    .side_panel {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 11rem;
+        height: auto;
+    }
+    
+
+    .side_panel.collapsed .machines_list {
+        display: none;
+    }
+
+
+    .side_panel.expanded .machines_list {
+        display: block;
+    }
+
+    .side_panel_toggle-container {
+        display: flex;
+    }
+    .burger-menu-ico {
+        display: flex;
+    }
+    
+    .arrow-menu-ico {
+        display: none;
+    }
+
+    .graphs_header_container {
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .cpu_graph-container {
+        width: 45vw;
+    }
+    .ram_graph-container {
+        width: 45vw;
+        margin: 0;
+    }
 }
+
+
+
+@media only screen and (max-width: 79.9rem) and (min-width: 63.9rem) { 
+    
+
+    /* .constant-display-container {
+        width: 85%;
+    } */
+    .exe_list {
+        height: 29vh;
+    }
+}
+
+/* Wide but low res */
+
+@media only screen and (max-width: 79.9rem) and (orientation: landscape) { 
+    
+
+    /* .graphs_container {
+        flex-direction: column;
+    } */
+}
+
+@media only screen and (min-width: 80.1rem) { 
+    
+    
+    .graphs_header_container {
+        
+        height: 48vh;
+    }
+}
+
