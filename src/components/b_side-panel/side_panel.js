@@ -23,7 +23,15 @@ export default class SidePanel extends Component {
 
     render () {
       return (
-        <div className="my_class"> 
+        <div className="side_panel"> 
+            <div className="side_panel_toggle-container flex-centered">
+              <div className="burger-menu-ico flex-centered">
+                burger-menu-ico
+              </div>
+              <div className="arrow-menu-ico flex-centered">
+                arrow-menu-ico
+              </div>
+            </div>
             {this.state.the_machines.map(
               (fresh_data, index) => 
                 <p key={index} onClick={() => this.passSelectedMachine(index)}>

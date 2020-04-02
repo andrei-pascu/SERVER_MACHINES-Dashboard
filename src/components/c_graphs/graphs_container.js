@@ -13,13 +13,26 @@ export default class GraphsContainer extends Component {
   
     render () {
       return (
-        <div className="my_class"> 
-            ____GraphsContainer______ <br/>
-            {'H1______________ NAME: ' + this.props.specificMachineBufferData['machine_name']} <br/>
-            {'H2______________ IP: ' + this.props.specificMachineBufferData['machine_ip']} <br/>
-            {'H2______________ CPU: ' + this.props.specificMachineBufferData['cpu_core_nr'] + ' cores'} <br/>
-            {'H2______________ RAM: ' + this.props.specificMachineBufferData['ram_max_size']/1000000 + 'mb'} <br/>
-            <div style={{display: 'flex'}}>
+        <div className="graphs_header_container"> 
+            <header>
+              <div className='machine_name_ip'>
+                <h2 className='machine_name'>
+                  {this.props.specificMachineBufferData['machine_name']}
+                </h2>
+                <p  className='machine_name_ip'>
+                  {this.props.specificMachineBufferData['machine_ip']}
+                </p>
+              </div>
+              <div className='machine_details'>
+                  <p>
+                    {this.props.specificMachineBufferData['cpu_core_nr'] + ' cores'}
+                  </p>
+                  <p>
+                    {this.props.specificMachineBufferData['ram_max_size']/1000000 + 'mb'}
+                  </p>
+              </div>
+            </header>
+            <div className="graphs_container"> 
               <span>_____
                 <CpuGraph
                   specificMachineProcesses={this.props.specificMachineBufferData['processes']}

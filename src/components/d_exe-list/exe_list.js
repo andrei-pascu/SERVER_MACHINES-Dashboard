@@ -6,11 +6,6 @@ export default class ExeList extends Component {
     this.timer = 0;
   }
   componentDidMount() {
-    // console.log(this.props.specificMachineBufferData['processes'][0]['process_name'])
-    // console.log('exe_list "mounted"')
-    // setTimeout(() => {
-    //   console.log(this.props.specificMachineBufferData['processes'][0]['process_name'])
-    // }, 3000);
     setInterval(() => {
       if (this.timer == 30) {
         this.timer = 0;
@@ -24,46 +19,54 @@ export default class ExeList extends Component {
     render () {
       if (!this.props.specificMachineBufferData) {
         return (
-          <div className="my_class"> 
+          <div className="exe_list"> 
             ExeList <br/>
           </div> 
         )
       } else {
         var processes_arr = this.props.historyData[this.timer]['machines'][this.props.specificMachineIndex]['processes'];
         return (
-          <div className="my_class"> 
-              ExeList <br/>
-              {/* {this.props.specificMachineBufferData['machine_name']} */}
-              {/* {
-                console.log('aaa', this.props.specificMachineIndex)
-              }
-              {
-                console.log(this.props.historyData[this.timer])
-              }
-              {'aici_____ ' + this.props.specificMachineBufferData['processes'][0]['process_name']}
-
-              {this.props.historyData[this.timer]['machines'][this.props.specificMachineIndex]['processes'][0]['cpu_usage']} */}
-
-              {processes_arr.map(
-                (process, index) => 
-                  <div key={index}>
-                    <span>
-                      {process['process_name'] + '_______'}
-                    </span>
-                    <span>
-                      {process['display_name'] + '_______'}
-                    </span>
-                    <span>
-                      {process['exe_age'] + '_______'}
-                    </span>
-                    <span>
-                      {process['cpu_usage'] + '_______'}
-                    </span>
-                    <span>
-                      {process['memory_usage']/1000000 + ' mb'}
-                    </span>
+          <div className="exe_list"> 
+              <h2 className={'processes_title'}>Processes</h2>
+              <div className="process_table">
+                  <div className={'process_row'}>
+                    <p className={'process_column'} >
+                      App
+                    </p>
+                    <p className={'process_column'} >
+                      Executables
+                    </p>
+                    <p className={'process_column'} >
+                      Start Time
+                    </p>
+                    <p className={'process_column process_column_cpu'} >
+                      CPU
+                    </p>
+                    <p className={'process_column process_column_ram'} >
+                      RAM
+                    </p>
                   </div>
-              )}
+                  {processes_arr.map(
+                    (process, index) => 
+                      <div className={'process_row'} key={index}>
+                        <p className={'process_column'} >
+                          {process['display_name']}
+                        </p>
+                        <p className={'process_column'} >
+                          {process['process_name']}
+                        </p>
+                        <p className={'process_column'} >
+                          {process['exe_age']}
+                        </p>
+                        <p className={'process_column process_column_cpu'} >
+                          {process['cpu_usage']+'%'}
+                        </p>
+                        <p className={'process_column process_column_ram'} >
+                          {(process['memory_usage']/1000000).toFixed(1) + ' mb'}
+                        </p>
+                      </div>
+                  )}
+              </div>
           </div>
         )
       }

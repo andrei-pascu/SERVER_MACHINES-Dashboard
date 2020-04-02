@@ -5,7 +5,9 @@ export default class CpuGraph extends Component {
     super(props);
     this.svg_inner = {
       width: 950,
-      height: 200
+      height: 400
+      // width: 950,
+      // height: 200
     };
     this.svg_inner_viewbox = `0 0 ${this.svg_inner['width']} ${this.svg_inner['height']}`;
     this.last_sum = 0;
@@ -62,15 +64,13 @@ export default class CpuGraph extends Component {
         )
       } else {
         return (
-          <span className="my_class"> 
-              TEMP_LAST_GENERATED_SECOND_CPUusage: {': ' + this.last_sum + '%'} <br/>
+          <div className="cpu_graph-container"> 
+              <p>{this.last_sum + '%'}</p>
               <svg viewBox={this.svg_inner_viewbox} className="chart">
               <polyline fill="red" stroke="#0074d9" strokeWidth="2" points={this.generate_svg()}>
                 </polyline>
               </svg>
-              <br/>
-              
-          </span>
+          </div>
         )
       }
     }

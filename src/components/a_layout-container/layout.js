@@ -74,25 +74,23 @@ export default class Layout extends Component {
 
     render () {
       return (
-        <div className="my_class"> 
-          <br/>
-          <br/>
-          <br/>
-          <br/>
+        <div className="layout"> 
             <SidePanel 
               sidePanelClickSendsData={this.useSideDataFromSidepanel}
               bufferData={this.state.buffer}
             />
-            <GraphsContainer
-              specificMachineBufferData={this.state.displayedMachine}
-              specificMachineIndex={this.state.displayedMachineList}
-              historyData={this.state.buffer}
-            />
-            <ExeList
-              specificMachineBufferData={this.state.displayedMachine}
-              specificMachineIndex={this.state.displayedMachineList}
-              historyData={this.state.buffer}
-            />
+            <div className="constant-display-container flex-centered">
+              <GraphsContainer
+                specificMachineBufferData={this.state.displayedMachine}
+                specificMachineIndex={this.state.displayedMachineList}
+                historyData={this.state.buffer}
+              />
+              <ExeList
+                specificMachineBufferData={this.state.displayedMachine}
+                specificMachineIndex={this.state.displayedMachineList}
+                historyData={this.state.buffer}
+              />
+            </div>
         </div>
       )
     }

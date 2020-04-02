@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Layout from './components/a_layout-container/layout';
+import './App.css';
 
 class App extends Component {
   getCachedAndBuffered() {
