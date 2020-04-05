@@ -9,17 +9,17 @@ import mockDataExample from '../../mocked_datacenter/DATA_cache_buffer';
 export default class Layout extends Component {
     constructor(props) {
         super(props);
-        this.buffer = this.buffer;
+        // this.buffer = this.buffer;
         this.useSideDataFromSidepanel = this.useSideDataFromSidepanel.bind(this);
 
         this.state = {
             inited: false,
-            buffer: new secondGenerator(new mockDataExample()).generate(60),
+            buffer: new secondGenerator(new mockDataExample()).generate(40),
             displayedMachine: 0,
             displayedMachineList: 0
         };
-        console.log(this.state.stream)
-        console.log(this.state.buffer)
+        // console.log(this.state.stream)
+        // console.log(this.state.buffer)
     }
 
 
@@ -30,9 +30,12 @@ export default class Layout extends Component {
 
     streamData = () => {
         if (this.state.buffer.length == 31) {
-            var x = new secondGenerator(new mockDataExample()).generate(60);
+            this.state.buffer.pop()
+            var x = new secondGenerator(new mockDataExample()).generate(10);
+            var y = x.concat(this.state.buffer)
+            console.log(y)
             return this.setState({
-                buffer: x
+                buffer: y
             })
         } else {
             this.state.buffer.pop()

@@ -1,6 +1,5 @@
 import calculate_time from './generate_timestamp';
 
-const initial_time = new Date();
 let process_age = [];
 
 function getRandomInt(min, max) {
@@ -20,6 +19,7 @@ function getRandomInt(min, max) {
 
 function secondGenerator(data) {
     this.generate = (history_length) => {
+        let initial_time = new Date();
         let result = [];
         for (let i = 0; i < history_length; i++) {
             let second = {
@@ -39,7 +39,8 @@ function secondGenerator(data) {
                     second['machines'][j]['processes'].push({
                         'process_name': data['machines'][j]['processes'][k]['process_name'],
                         'display_name': data['machines'][j]['processes'][k]['display_name'],
-                        'exe_age': calculate_time(initial_time, process_age[j][k]),
+                        // 'exe_age': calculate_time(initial_time, process_age[j][k]),
+                        'exe_age': data['machines'][j]['processes'][k]['exe_age'][j][k],
                         'cpu_usage': getRandomInt(0, 100 / data['machines'][j]['processes'].length),
                         'memory_usage': getRandomInt(0, data['machines'][j]["ram_max_size"] / data['machines'][j]["processes"].length)
                         // 'memory_usage': 300000000 * j

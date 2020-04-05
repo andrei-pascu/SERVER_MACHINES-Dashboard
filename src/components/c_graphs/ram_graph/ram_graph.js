@@ -34,7 +34,14 @@ export default class RamGraph extends Component {
         var selectedMachineHistory = this.getMemoryUsageHistory();
         var generated_svg_polyline_points = '';
         var point_x_axis = 0;
+
+
         var graph_new_entry = selectedMachineHistory.length - 21;
+        console.log('⏳__SVG: Buffered To Display Till:', this.props.historyData[0]['timestamp'])
+        console.log('🔂_Display:', this.props.historyData[graph_new_entry]['timestamp'])
+
+
+
         this.last_sum = parseInt(selectedMachineHistory[graph_new_entry]);
         var selected_machine_gb = (this.props.historyData[graph_new_entry]['machines'][this.props.specificMachineIndex]['ram_max_size'] / 1000000000)
         this.total_memory_bytes = ((this.last_sum * selected_machine_gb) / 100).toFixed(1);
