@@ -34,8 +34,10 @@ export default class Layout extends Component {
             var x = new secondGenerator(new mockDataExample()).generate(10);
             var y = x.concat(this.state.buffer)
 
+            console.log('🕑 10s cached')
+            console.log('SVG_FILLED Till:', y[10]['timestamp'])
             console.log('🕑 +10s buffer')
-            console.log('LOAD Till:', y[0]['timestamp'])
+            console.log('DATA Till:', y[0]['timestamp'])
             return this.setState({
                 buffer: y
             })
