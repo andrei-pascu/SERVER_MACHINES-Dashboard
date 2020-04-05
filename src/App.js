@@ -3,17 +3,17 @@ import Layout from './components/a_layout-container/layout';
 import './App.css';
 
 class App extends Component {
-  getCachedAndBuffered() {
-    console.log('a change')
-  }
+    getCachedAndBuffered() {
+        console.log('a change')
+    }
 
-  render() {
-    return (
-      <div className="App">
-        <Layout />
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="App">
+                <Layout />
+            </div>
+        );
+    }
 }
 
 export default App;

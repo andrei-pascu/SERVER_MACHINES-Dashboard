@@ -1,56 +1,55 @@
 import calculate_time from './generate_timestamp';
-import mockDataExample from './DATA_cache_buffer';
-
-function generateInitialData(generated_seconds_amount) {
-    var generate_array = [];
-    for (var x = 0; x < generated_seconds_amount; x++) {
-        generate_array[x] = new mockDataExample();
-    }
-    return generate_array;
-}
 
 const initial_time = new Date();
+let process_age = [];
+
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-var process_age = [];
-function generateAge() {
-    for (var i = 0; i < 10; i++) {
+(function generateAge() {
+    for (let i = 0; i < 10; i++) {
         process_age[i] = []
-        for (var j = 0; j < 10; j++) {
+        for (let j = 0; j < 10; j++) {
             process_age[i][j] = getRandomInt(35, 3600);
         }
     }
-}
-generateAge()
+})()
 
-function generatorWrapper(cache_age) {
-    let DATA = generateInitialData(cache_age);
-    function mock_init_data_generator(cache_age) {
-        if (DATA) {
-            var cached_data = [];
-            DATA.map((value, index) => {
-                if (index < cache_age) {
-                    cached_data[index] = value;
-                    cached_data[index]["timestamp"] = calculate_time(initial_time, index);
-                    cached_data[index]["machines"].map((machine_list, machine_index) => {
-                        machine_list["processes"].map((process_list, process_index) => {
-                            process_list["exe_age"] = calculate_time(initial_time, process_age[machine_index][process_index]);
-                            process_list["cpu_usage"] = getRandomInt(0, 100/machine_list["processes"].length);
-                            process_list["memory_usage"] = getRandomInt(0, machine_list["ram_max_size"]/machine_list["processes"].length);
-                        });
-                    });
-                };
-            });
-            return cached_data;
-            
-        } else {
-            throw 'Initial server data returned undefined.'
+
+function secondGenerator(data) {
+    this.generate = (history_length) => {
+        let result = [];
+        for (let i = 0; i < history_length; i++) {
+            let second = {
+                'timestamp': calculate_time(initial_time, i),
+                'machines': []
+            }
+
+            for (let j = 0; j < data['machines'].length; j++) {
+                second['machines'][j] = {};
+                second['machines'][j]['machine_name'] = data['machines'][j]['machine_name']
+                second['machines'][j]['machine_ip'] = data['machines'][j]['machine_ip']
+                second['machines'][j]['cpu_core_nr'] = data['machines'][j]['cpu_core_nr']
+                second['machines'][j]['ram_max_size'] = data['machines'][j]['ram_max_size']
+                second['machines'][j]['processes'] = [];
+
+                for (let k = 0; k < data['machines'][j]['processes'].length; k++) {
+                    second['machines'][j]['processes'].push({
+                        'process_name': data['machines'][j]['processes'][k]['process_name'],
+                        'display_name': data['machines'][j]['processes'][k]['display_name'],
+                        'exe_age': calculate_time(initial_time, process_age[j][k]),
+                        'cpu_usage': getRandomInt(0, 100 / data['machines'][j]['processes'].length),
+                        'memory_usage': getRandomInt(0, data['machines'][j]["ram_max_size"] / data['machines'][j]["processes"].length)
+                        // 'memory_usage': 300000000 * j
+                    })
+                }
+            }
+            result.push(second)
         }
-    }
-    return mock_init_data_generator(cache_age)
+        return result
+    };
 }
 
-export default generatorWrapper;
+export default secondGenerator;
