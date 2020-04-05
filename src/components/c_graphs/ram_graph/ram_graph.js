@@ -37,9 +37,9 @@ export default class RamGraph extends Component {
 
 
         var graph_new_entry = selectedMachineHistory.length - 21;
-        console.log('⏳__SVG: Buffered To Display Till:', this.props.historyData[0]['timestamp'])
-        console.log('🔂_Display:', this.props.historyData[graph_new_entry]['timestamp'])
 
+        // console.log('__Seconds BUFFERED IN SVG:',  graph_new_entry)
+        console.log('__Seconds BUFFERED IN SVG: ' + (graph_new_entry+1) + ' 🔂_RENDER: ' +  this.props.historyData[(graph_new_entry)]['timestamp'])
 
 
         this.last_sum = parseInt(selectedMachineHistory[graph_new_entry]);

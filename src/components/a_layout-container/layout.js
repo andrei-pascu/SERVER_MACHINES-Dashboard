@@ -33,7 +33,9 @@ export default class Layout extends Component {
             this.state.buffer.pop()
             var x = new secondGenerator(new mockDataExample()).generate(10);
             var y = x.concat(this.state.buffer)
-            console.log(y)
+
+            console.log('🕑 +10s buffer')
+            console.log('LOAD Till:', y[0]['timestamp'])
             return this.setState({
                 buffer: y
             })
