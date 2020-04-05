@@ -41,7 +41,7 @@ export default class RamGraph extends Component {
         // 1 to start counting from 1 not from 0
         // 10 from r:22 var processes = history[x + 10]['machines'][selected_machine]['processes'];
             // 1 sec earlier than time because 1s is always buffered in the SVG
-        console.log('__Seconds BUFFERED IN SVG: ' + (graph_new_entry+1) + ' 🔂_RENDER: ' +  this.props.historyData[(graph_new_entry + 11)]['timestamp'])
+        console.log('__Seconds BUFFERED IN SVG: ' + (graph_new_entry+1) + ' 🔂_DISPLAY: ' +  this.props.historyData[(graph_new_entry + 11)]['timestamp'])
 
 
         this.last_sum = parseInt(selectedMachineHistory[graph_new_entry]);
