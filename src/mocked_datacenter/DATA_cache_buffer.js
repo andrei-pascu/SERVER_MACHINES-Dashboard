@@ -12,17 +12,17 @@ function getRandomInt(min, max) {
     for (let i = 0; i < 10; i++) {
         process_age[i] = []
         for (let j = 0; j < 10; j++) {
-            process_age[i][j] = calculate_time(initial_time, getRandomInt(35, 3600));
+            // process_age[i][j] = calculate_time(initial_time, getRandomInt(35, 3600));
+            process_age[i][j] = [initial_time, getRandomInt(35, 3600)];
         }
     }
 })()
-
 
 function mockDataExample() {
     this.timestamp = null;
     this.machines = [
         {
-            "machine_name": "Threadripper 3990X",
+            "machine_name": "Th-ripper 3990X",
             "machine_ip": "0001:0001:0001:0001:0001:0001:0001:0001",
             "cpu_core_nr": 32,
             "ram_max_size": 32000000000,
@@ -72,7 +72,7 @@ function mockDataExample() {
             ]
         },
         {
-            "machine_name": "Pixel-Cruncher_V2",
+            "machine_name": "Pixel-Cruncher 2",
             "machine_ip": "0002:0002:0002:0002:0002:0002:0002:0002",
             "cpu_core_nr": 16,
             "ram_max_size": 16000000000,
@@ -122,7 +122,7 @@ function mockDataExample() {
             ]
         },
         {
-            "machine_name": "Pixel-Cruncher_V3",
+            "machine_name": "Pixel-Cruncher 3",
             "machine_ip": "0003:0003:0003:0003:0003:0003:0003:0003",
             "cpu_core_nr": 8,
             "ram_max_size": 8000000000,
@@ -172,7 +172,7 @@ function mockDataExample() {
             ]
         },
         {
-            "machine_name": "Pixel-Cruncher_V4",
+            "machine_name": "Pixel-Cruncher 4",
             "machine_ip": "0004:0004:0004:0004:0004:0004:0004:0004",
             "cpu_core_nr": 8,
             "ram_max_size": 8000000000,
@@ -222,7 +222,7 @@ function mockDataExample() {
             ]
         },
         {
-            "machine_name": "Pixel-Cruncher_V5",
+            "machine_name": "Pixel-Cruncher 5",
             "machine_ip": "0005:0005:0005:0005:0005:0005:0005:0005",
             "cpu_core_nr": 8,
             "ram_max_size": 8000000000,

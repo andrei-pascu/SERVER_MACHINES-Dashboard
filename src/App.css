@@ -23,6 +23,7 @@ html {
     padding: 0;
     margin: 0;
     overflow: hidden;
+    font-family: monospace;
 }
 .layout {
     min-height: 100vh;
@@ -44,7 +45,7 @@ html {
     justify-content: flex-start;
     flex-direction: column;
     padding-top: 5vh;
-    padding-left: 3vw;
+    padding-left: 2vw;
     width: calc(100% - 10rem);
 }
 
@@ -55,8 +56,8 @@ html {
 
 .side_panel {
     min-height: 100vh;
-    width: 10rem;
     /* border: 2px dotted red; */
+    width: 12.5rem;
 }
 
 .burger-menu-ico {
@@ -73,27 +74,43 @@ html {
     left: 0; */
     height: 3rem;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 .machines_list {
+    height: 100%;
     /* margin-top: 3rem; */
-    border: 2px blue dotted;
     background-color: white;
-    
-    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    padding: 0.5rem 0 1rem 0.5rem;
 }
 
 .machines_list h2 {
-    margin-bottom: 0.5rem;
+    padding: 1rem 0 0 1rem;
+    margin-bottom: 2rem;
+    padding: 0.9rem 0 0 0.5rem;
+    pointer-events: none;
 }
 
 .side_panel.collapsed .machines_list {
     display: block;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
+.machine_row {
+    max-width: 10rem;
+    border-bottom: 0.2rem #00000059 solid;
+    margin: 0 auto 1.5rem auto;
+    display: inline-block;
+    padding: 0.3rem 0.6rem 0.2rem 0.6rem;
+    transition: 200ms;
+    user-select: none;
+    cursor: pointer;
+}
 
-
+.machine_row:hover {
+    border-bottom: 0.2rem #000000 solid;
+    background-color: #00000042;
+}
 
 
 
@@ -155,7 +172,22 @@ html {
     margin: 0 3vw 0 0;
 }
 
+.processes_container._display_name.asc       .process_titles .process_column_display_name,
+.processes_container._process_name.asc       .process_titles .process_column_name,
+.processes_container._exe_age.asc            .process_titles .process_column_exe_age,
+.processes_container._cpu_usage.asc          .process_titles .process_column_cpu,
+.processes_container._process_column_ram.asc .process_titles .process_column_ram {
+    background-color: red;
+}
 
+
+.processes_container._display_name.desc       .process_titles .process_column_display_name,
+.processes_container._process_name.desc       .process_titles .process_column_name,
+.processes_container._exe_age.desc            .process_titles .process_column_exe_age,
+.processes_container._cpu_usage.desc          .process_titles .process_column_cpu,
+.processes_container._process_column_ram.desc .process_titles .process_column_ram {
+    background-color: blue;
+}
 
 
 
@@ -199,6 +231,7 @@ header {
     flex-direction: column;
     border: 0.18rem solid rgba(43, 159, 226, 1);
     width: 40vw;
+    background: linear-gradient(0deg, rgba(43, 159, 226, 1) 0%, rgba(43, 159, 226, 1) 0.3%, rgba(255,255,255,0) 0.3%, rgba(255,255,255,0) 100%);
     /* width: 20%; */
 }
 
@@ -209,6 +242,8 @@ header {
     border: 0.18rem solid rgba(137, 43, 226, 1);
     width: 40vw;
     margin: 0 2vw;
+    background: linear-gradient(0deg, rgba(137, 43, 226, 1) 0%, rgba(137, 43, 226, 1) 0.3%, rgba(255,255,255,0) 0.3%, rgba(255,255,255,0) 100%);
+
 }
 
 .ram_chart {
@@ -241,7 +276,8 @@ header {
 } */
 
 
-@media only screen and (max-width: 64rem) { 
+/* TO TABLET */
+@media only screen and (max-width: 79rem) { 
     .constant-display-container {
         width: 100%;
         padding-top: 4rem;
@@ -254,11 +290,22 @@ header {
         height: auto;
     }
     
+    .machines_list {
+        min-width: 14rem;
+        padding: 1rem 0.5rem 1.5rem 1.5rem;
+    }
 
     .side_panel.collapsed .machines_list {
         display: none;
     }
 
+    .side_panel.collapsed {
+        pointer-events: none;
+    }
+    .machines_list,
+    .side_panel_toggle-container {
+        pointer-events: all;
+    }
 
     .side_panel.expanded .machines_list {
         display: block;
@@ -288,35 +335,60 @@ header {
     }
 }
 
-
-
-@media only screen and (max-width: 79.9rem) and (min-width: 63.9rem) { 
-    
-
-    /* .constant-display-container {
-        width: 85%;
-    } */
-    .exe_list {
-        height: 29vh;
+/* DESKTOP */
+@media only screen and (min-width: 80rem) { 
+    .machine-list {
+        padding: 0.5rem 0 0.8rem 0.5rem;
     }
-}
-
-/* Wide but low res */
-
-@media only screen and (max-width: 79.9rem) and (orientation: landscape) { 
-    
-
-    /* .graphs_container {
-        flex-direction: column;
-    } */
-}
-
-@media only screen and (min-width: 80.1rem) { 
-    
+    .machines_list h2 {
+        margin-bottom: 1.2rem;
+    }
     
     .graphs_header_container {
         
         height: 48vh;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width: 79.9rem) and (min-width: 63.9rem) { 
+    
+
+    .constant-display-container {
+        width: 85%;
+    }
+    .exe_list {
+        height: 29vh;
+    }
+} */
+
+/* Wide but low res */
+
+/* @media only screen and (max-width: 79.9rem) and (orientation: landscape) { 
+    
+
+    .graphs_container {
+        flex-direction: column;
+    }
+} */
 

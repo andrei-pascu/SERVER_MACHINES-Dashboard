@@ -24,10 +24,13 @@ export default class SidePanel extends Component {
     }
 
     toggleMenu() {
-        if (this.toggle == 'collapsed') {
-            this.toggle = 'expanded';
-        } else if (this.toggle = 'expanded') {
-            this.toggle = 'collapsed';
+        console.warn(window.innerWidth)
+        if (window.innerWidth < 1280) {
+            if (this.toggle == 'collapsed') {
+                this.toggle = 'expanded';
+            } else if (this.toggle = 'expanded') {
+                this.toggle = 'collapsed';
+            }
         }
     }
 
@@ -37,16 +40,16 @@ export default class SidePanel extends Component {
                 <div onClick={() => this.toggleMenu()} className="side_panel_toggle-container flex-centered">
                     <div className="burger-menu-ico flex-centered">
                         burger-menu-ico
-              </div>
+                    </div>
                 </div>
 
                 <div className={'machines_list'}>
                     <h2>
                         Machines
-              </h2>
+                    </h2>
                     {this.state.the_machines.map(
                         (fresh_data, index) =>
-                            <p key={index} onClick={() => this.passSelectedMachine(index)}>
+                            <p className={'machine_row'} key={index} onClick={() => this.passSelectedMachine(index)}>
                                 {fresh_data['machine_name']}
                             </p>
                     )}
