@@ -27,7 +27,8 @@ html {
 }
 .layout {
     min-height: 100vh;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(0, 0, 0);
+    color: wheat;
     display: flex;
     align-items: flex-start;
 }
@@ -62,19 +63,19 @@ html {
 
 .burger-menu-ico {
     display: none;
+    user-select: none;
 }
+
 .side_panel_toggle-container {
     display: none;
-}
-
-
-.side_panel_toggle-container {
-    /* position: fixed;
-    top: 0;
-    left: 0; */
     height: 3rem;
     border: 2px solid black;
     cursor: pointer;
+}
+
+.side_panel_toggle-container:hover {
+    border: 2px solid #ffffff59;
+    background-color: #ffffff30;
 }
 
 .machines_list {
@@ -82,6 +83,7 @@ html {
     /* margin-top: 3rem; */
     background-color: white;
     padding: 0.5rem 0 1rem 0.5rem;
+    background-color: black;
 }
 
 .machines_list h2 {
@@ -108,7 +110,7 @@ html {
 }
 
 .machine_row:hover {
-    border-bottom: 0.2rem #000000 solid;
+    border-bottom: 0.2rem #ffffff59 solid;
     background-color: #00000042;
 }
 
@@ -169,15 +171,16 @@ html {
 }
 
 .process_titles {
-    margin: 0 3vw 0 0;
+    margin: 0 3vw 0 -4px;
 }
 
 .processes_container._display_name.asc       .process_titles .process_column_display_name,
 .processes_container._process_name.asc       .process_titles .process_column_name,
 .processes_container._exe_age.asc            .process_titles .process_column_exe_age,
 .processes_container._cpu_usage.asc          .process_titles .process_column_cpu,
-.processes_container._process_column_ram.asc .process_titles .process_column_ram {
-    background-color: red;
+.processes_container._memory_usage.desc      .process_titles .process_column_ram {
+    background-color: rgb(10, 93, 30);
+    color: white;
 }
 
 
@@ -185,14 +188,28 @@ html {
 .processes_container._process_name.desc       .process_titles .process_column_name,
 .processes_container._exe_age.desc            .process_titles .process_column_exe_age,
 .processes_container._cpu_usage.desc          .process_titles .process_column_cpu,
-.processes_container._process_column_ram.desc .process_titles .process_column_ram {
-    background-color: blue;
+.processes_container._memory_usage.desc       .process_titles .process_column_ram {
+    background-color: rgb(156, 0, 104);
+    color: white;
+}
+
+.process_row.process_titles .process_column {
+    cursor: pointer;
+    height: 2rem;
+    padding: 0.35rem;
+}
+
+
+.process_row.process_titles .process_column:hover {
+    background-color: rgb(0, 162, 218);
+    color: #c700c7;
 }
 
 
 
-
-
+.process_row.process_titles .process_column_cpu {
+    width: 6%;
+}
 
 
 
@@ -201,9 +218,11 @@ html {
 header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3px;
 }
 .machine_details {
     margin: 0 3vw;
+    user-select: none;
 }
 
 
@@ -225,25 +244,33 @@ header {
     /* flex-direction: column; */
 }
 
-.cpu_graph-container {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    border: 0.18rem solid rgba(43, 159, 226, 1);
-    width: 40vw;
-    background: linear-gradient(0deg, rgba(43, 159, 226, 1) 0%, rgba(43, 159, 226, 1) 0.3%, rgba(255,255,255,0) 0.3%, rgba(255,255,255,0) 100%);
-    /* width: 20%; */
+.live_rendered {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.5rem;
+    pointer-events: none;
+    user-select: none;
 }
 
+.cpu_graph-container,
 .ram_graph-container {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+    width: 40vw;    
+    pointer-events: none;
+    position: relative;
+}
+.cpu_graph-container {
+    border: 0.18rem solid rgba(43, 159, 226, 1);
+    background: linear-gradient(0deg, rgba(43, 159, 226, 1) 0%, rgba(43, 159, 226, 1) 0.3%, rgba(255,255,255,0) 0.3%, rgba(255,255,255,0) 100%);
+
+}
+
+.ram_graph-container {
     border: 0.18rem solid rgba(137, 43, 226, 1);
-    width: 40vw;
     margin: 0 2vw;
     background: linear-gradient(0deg, rgba(137, 43, 226, 1) 0%, rgba(137, 43, 226, 1) 0.3%, rgba(255,255,255,0) 0.3%, rgba(255,255,255,0) 100%);
-
 }
 
 .ram_chart {
@@ -282,17 +309,30 @@ header {
         width: 100%;
         padding-top: 4rem;
     }
+    .processes_container {
+        width: 98%;
+    }
     .side_panel {
         position: fixed;
         top: 0;
         left: 0;
         width: 11rem;
         height: auto;
+        z-index: 99;
     }
     
     .machines_list {
         min-width: 14rem;
         padding: 1rem 0.5rem 1.5rem 1.5rem;
+        background-color: #0c4242eb;
+    }
+
+    .machine_row {
+        border-bottom: 0.2rem #ffffff9c solid;
+    }
+
+    .machine_row:hover {
+        border-bottom: 0.2rem #00000000 solid;
     }
 
     .side_panel.collapsed .machines_list {
@@ -325,6 +365,7 @@ header {
     .graphs_header_container {
         height: auto;
         margin-bottom: 1rem;
+        width: 98%;
     }
     .cpu_graph-container {
         width: 45vw;
@@ -335,6 +376,31 @@ header {
     }
 }
 
+/* TO MOBILE */
+@media only screen and (max-width: 63rem) {
+    .constant-display-container {
+        overflow-x: scroll;
+    }
+    .processes_container {
+        /* width: 55rem; */
+        overflow-x: scroll;
+        /* width: auto; */
+    }
+    .processes_title {
+        width: 53rem;
+    }
+    .process_row {
+        width: 53rem;
+    }
+    .exe_list {
+        width: 53rem;
+    }
+}
+@media only screen and (max-width: 47.9rem) {
+    .processes_container {
+        /* width: 55rem; */
+    }
+}
 /* DESKTOP */
 @media only screen and (min-width: 80rem) { 
     .machine-list {
@@ -347,6 +413,15 @@ header {
     .graphs_header_container {
         
         height: 48vh;
+    }
+}
+@media only screen and (orientation: portrait) {
+    .graphs_container { 
+        flex-direction: column;
+        
+    }
+    .cpu_graph-container, .ram_graph-container {
+        width: 69vw;
     }
 }
 

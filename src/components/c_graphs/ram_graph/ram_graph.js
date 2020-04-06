@@ -70,7 +70,7 @@ export default class RamGraph extends Component {
         } else {
             return (
                 <div className="ram_graph-container">
-                    <p>{this.total_memory_bytes + 'GB : ' + this.last_sum + '%'}</p>
+                    <p className="live_rendered">{this.total_memory_bytes + 'GB : ' + this.last_sum + '%'}</p>
                     <svg viewBox={this.svg_inner_viewbox} className="ram_chart">
                         <polyline points={this.generate_svg()}>
                         </polyline>

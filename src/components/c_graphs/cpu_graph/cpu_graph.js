@@ -65,7 +65,7 @@ export default class CpuGraph extends Component {
         } else {
             return (
                 <div className="cpu_graph-container">
-                    <p>{this.last_sum + '%'}</p>
+                    <p className="live_rendered">{this.last_sum + '%'}</p>
                     <svg viewBox={this.svg_inner_viewbox} className="cpu_chart">
                         <polyline points={this.generate_svg()}>
                         </polyline>
