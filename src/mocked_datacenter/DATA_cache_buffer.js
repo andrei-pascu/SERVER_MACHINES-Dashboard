@@ -28,8 +28,22 @@ function mockDataExample() {
             "ram_max_size": 32000000000,
             "processes": [
                 {
+                    "process_name": "firefox.exe",
+                    "display_name": "Firefox",
+                    "exe_age": process_age,
+                    "cpu_usage": 7,
+                    "memory_usage": 10000000000
+                },
+                {
                     "process_name": "chrome.exe",
                     "display_name": "Chrome",
+                    "exe_age": process_age,
+                    "cpu_usage": 7,
+                    "memory_usage": 10000000000
+                },
+                {
+                    "process_name": "edge.exe",
+                    "display_name": "Edge",
                     "exe_age": process_age,
                     "cpu_usage": 7,
                     "memory_usage": 10000000000
@@ -65,6 +79,20 @@ function mockDataExample() {
                 {
                     "process_name": "spotify_client.exe",
                     "display_name": "Spotify",
+                    "exe_age":  process_age,
+                    "cpu_usage": 5,
+                    "memory_usage": 100000000
+                },
+                {
+                    "process_name": "github_client.exe",
+                    "display_name": "Github",
+                    "exe_age":  process_age,
+                    "cpu_usage": 5,
+                    "memory_usage": 100000000
+                },
+                {
+                    "process_name": "doom.exe",
+                    "display_name": "DooM 94",
                     "exe_age":  process_age,
                     "cpu_usage": 5,
                     "memory_usage": 100000000
