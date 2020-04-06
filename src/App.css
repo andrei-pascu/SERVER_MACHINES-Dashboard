@@ -57,7 +57,6 @@ html {
 
 .side_panel {
     min-height: 100vh;
-    /* border: 2px dotted red; */
     width: 12.5rem;
 }
 
@@ -80,7 +79,6 @@ html {
 
 .machines_list {
     height: 100%;
-    /* margin-top: 3rem; */
     background-color: white;
     padding: 0.5rem 0 1rem 0.5rem;
     background-color: black;
@@ -95,7 +93,6 @@ html {
 
 .side_panel.collapsed .machines_list {
     display: block;
-    /* height: 100vh; */
 }
 
 .machine_row {
@@ -137,7 +134,6 @@ html {
     display: flex;
 }
 .process_column {
-    /* margin: 0 2vw; */
     width: 11rem;
     font-size: 1.2rem;
 }
@@ -173,7 +169,6 @@ html {
 .process_titles {
     margin: 0 3vw 0 -4px;
 }
-
 .processes_container._display_name.asc       .process_titles .process_column_display_name,
 .processes_container._process_name.asc       .process_titles .process_column_name,
 .processes_container._exe_age.asc            .process_titles .process_column_exe_age,
@@ -182,8 +177,6 @@ html {
     background-color: rgb(10, 93, 30);
     color: white;
 }
-
-
 .processes_container._display_name.desc       .process_titles .process_column_display_name,
 .processes_container._process_name.desc       .process_titles .process_column_name,
 .processes_container._exe_age.desc            .process_titles .process_column_exe_age,
@@ -199,17 +192,18 @@ html {
     padding: 0.35rem;
 }
 
-
 .process_row.process_titles .process_column:hover {
     background-color: rgb(0, 162, 218);
     color: #c700c7;
 }
 
-
-
 .process_row.process_titles .process_column_cpu {
     width: 6%;
 }
+
+
+
+
 
 
 
@@ -241,7 +235,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-direction: column; */
 }
 
 .live_rendered {
@@ -286,24 +279,13 @@ header {
 
 
 
-/* @media only screen and (max-width: 64) and (orientation: portrait) { 
-    .side_panel {
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
-
-    .burger-menu-ico {
-        display: flex;
-    }
-    
-    .arrow-menu-ico {
-        display: none;
-    }
-} */
 
 
-/* TO TABLET */
+
+
+
+
+/* TO TABLET  WIDE*/
 @media only screen and (max-width: 79rem) { 
     .constant-display-container {
         width: 100%;
@@ -376,15 +358,15 @@ header {
     }
 }
 
-/* TO MOBILE */
+
+
+/* TO MOBILE & tablet portrait */
 @media only screen and (max-width: 63rem) {
     .constant-display-container {
         overflow-x: scroll;
     }
     .processes_container {
-        /* width: 55rem; */
         overflow-x: scroll;
-        /* width: auto; */
     }
     .processes_title {
         width: 53rem;
@@ -396,11 +378,9 @@ header {
         width: 53rem;
     }
 }
-@media only screen and (max-width: 47.9rem) {
-    .processes_container {
-        /* width: 55rem; */
-    }
-}
+
+
+
 /* DESKTOP */
 @media only screen and (min-width: 80rem) { 
     .machine-list {
